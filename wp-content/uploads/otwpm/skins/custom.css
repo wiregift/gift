@@ -1,0 +1,60 @@
+.otw-twentyfour.otw-columns{
+    padding: 125px 100px 0 100px;
+}
+
+img, .otw_portfolio_manager-format-gallery .slides a, .otw_portfolio_manager-format-gallery .slides img {
+    display: initial;
+}
+
+.otw_portfolio_manager-portfolio-newspaper-sort{
+display:none;
+}
+
+.otw_portfolio_manager-portfolio-newspaper-filter {
+display:none;
+}
+
+.otw-twentyfour.otw-columns {
+    padding: 0 100px 0 100px;
+}
+.entry-meta{
+display:none;
+}
+.entry-footer{
+display:none;
+}
+.otw_portfolio_manager-portfolio-media.otw_portfolio_manager-format-image img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.otw_portfolio_manager-portfolio-media.otw_portfolio_manager-format-image > a >img  {
+    position: relative;
+    display: block;
+    max-height: 150px;
+    max-width: 150px;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    background: #fff;
+    border-style: none;
+}
+
+.otw_portfolio_manager-portfolio-media.otw_portfolio_manager-format-image > a {
+    position: relative;
+    display: block;
+    max-height: 150px;
+    max-width: 150px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    background: #fff;
+    border-radius: 3%;
+vertical-align: middle;
+    line-height: 150px;
+    display: flex;
+}
+
+.otw_portfolio_manager-portfolio-title {
+text-align:center;
+}

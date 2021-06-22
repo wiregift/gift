@@ -1,0 +1,74 @@
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .sp-lc-item{
+    position: relative;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .sp-lc-item img{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    display: block;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .sp-lc-item:hover .logo-title{
+    opacity: .9;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .owl-controls .owl-nav{
+    position: absolute;
+    top: -40px;
+    right: -2px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .owl-controls .owl-nav div{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 2px;
+    border: 1px solid #666;
+    background-color: transparent;
+    color: #000;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .owl-controls .owl-dots .owl-dot{
+    display: inline-block;
+    zoom: 1;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .owl-controls .owl-dots .owl-dot span {
+    background-color: #11B8EA;
+    margin: 3px;
+    width: 10px;
+    height: 10px;
+    opacity: .7;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .owl-controls .owl-dots .owl-dot.active span{
+    opacity: 1;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .owl-controls{
+    text-align: center;
+    margin-top: 5px;
+}
+
+div.sp-logo-carousel-section .sp-logo-carousel-area .sp-not-found-any-logo{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
